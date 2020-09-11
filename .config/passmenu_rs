@@ -1,0 +1,1 @@
+rofi_args = "-dpi 80 -show-icons -theme /home/rupansh/slate -lines 8 -padding 18 -width 120 -location 0 -sidebar-mode"
