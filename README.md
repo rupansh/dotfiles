@@ -19,7 +19,7 @@
 ## Recommendations
 #### Arch/AUR
 ```
-rofi pass flameshot redshift cava bottom neofetch spotify
+rofi pass flameshot redshift cava bottom hsetroot neofetch spotify
 ```
 #### Zsh plugins
 [powerlevel10k](https://github.com/romkatv/powerlevel10k) \
