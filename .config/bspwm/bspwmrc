@@ -17,7 +17,7 @@ bspc config focus_follows_pointer true
 bspc config focus_by_distance	true
 
 [ $(pidof -sx hsetroot) ] || hsetroot -cover ~/Pictures/back.jpg
-[ $(pidof -sx picom) ] || picom -b --respect-prop-shadow
+[ $(pidof -sx compton) ] || compton -b --respect-prop-shadow
 killall -q polybar
 while pgrep -u $UID -x polybar > /dev/null; do sleep 0.25; done
 polybar mybar -r &
