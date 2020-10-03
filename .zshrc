@@ -191,3 +191,7 @@ PS1="%F{cyan} %~ >%F{blue}> %F{white}"
 
 export ANDROID_HOME=/home/rupansh/Android/Sdk
 
+autoload -U edit-command-line
+zle -N edit-command-line
+bindkey '^xe' edit-command-line
+bindkey '^x^e' edit-command-line
