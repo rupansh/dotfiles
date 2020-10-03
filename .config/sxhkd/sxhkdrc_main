@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + d
-	rofi -dpi 90 -show-icons -theme slate -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns
+	rofi -dpi 90 -show-icons -theme slate -lines 12 -padding 18 -width 60 -location 0 -show drun -modi drun -sidebar-mode -columns
 
 super + alt + {r, n, x, i}
 	passmenu-rs { ,new, del, insert}
@@ -125,7 +125,7 @@ super + {Left,Down,Up,Right}
 
 # resize mode
 super + r
-	rm ~/.config/sxhkd/sxhkdrc | ln -s ~/.config/sxhkd/sxhkdrc_resize ~/.config/sxhkd/sxhkdrc | pkill -USR1 -x sxhkd && ~/.config/sxhkd/scripts/resize.sh enable
+	rm ~/.config/sxhkd/sxhkdrc && ln ~/.config/sxhkd/sxhkdrc_resize ~/.config/sxhkd/sxhkdrc && pkill -USR1 -x sxhkd && ~/.config/sxhkd/scripts/resize.sh enable
 
 # sound
 XF86AudioRaiseVolume
