@@ -235,7 +235,8 @@ label-occupied-foreground = #ffffff
 
 label-urgent = %index%
 label-urgent-padding = 2
-label-urgent-foreground = #ffffff
+label-urgent-foreground = #0c0c0d
+label-urgent-background = #ffffff
 
 label-empty =
 
