@@ -21,6 +21,7 @@ bspc config focus_by_distance	true
 killall -q polybar
 while pgrep -u $UID -x polybar > /dev/null; do sleep 0.25; done
 polybar mybar -r &
+[ $(pidof -sx /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1) ] || /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 setxkbmap -layout us
 setxkbmap -option 'grp:alt_shift_toggle'
 
