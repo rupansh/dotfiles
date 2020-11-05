@@ -1,0 +1,54 @@
+window:
+    decorations: "none"
+    padding:
+        x: 8
+        y: 12
+
+font:
+    normal:
+        family: BlexMono Nerd Font
+        style: Regular
+
+    bold:
+        family: BlexMono Nerd Font
+
+    italic:
+        family: BlexMono Nerd Font
+
+    bold_italic:
+        family: BlexMono Nerd Font
+
+    size: 9.5
+
+colors:
+    primary:
+        foreground: '#ffffff'
+        background: '#010101'
+    cursor:
+        cursor: '#ffffff'
+
+    normal:
+        black: "#1b1d1e"
+        red: "#f92672"
+        green: "#82b414"
+        yellow: "#fd971f"
+        blue: "#0066cc"
+        magenta: "#8c54fe"
+        cyan: "#465457"
+        white: "#ccccc6"
+
+    bright:
+        black: "#505354"
+        red: "#ff5995"
+        green: "#b6e354"
+        yellow: "#feed6c"
+        blue: "#333399"
+        magenta: "#9e6ffe"
+        cyan: "#899ca1"
+        white: "#f8f8f2"
+
+cursor:
+    style: Beam
+    thickness: 0.17
+
+background_opacity: 0.75

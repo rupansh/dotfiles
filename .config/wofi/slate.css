@@ -1,0 +1,32 @@
+window {
+  background-color: #282C33;
+  spacing: 0;
+}
+
+#input {
+  color: #8ca0aa;
+  background-color: #282c33;
+  border: none;
+  border-bottom: solid 1px #2e343f;
+  padding: 8px 16px;
+}
+
+#scroll {
+  margin: 0 0 -1px 0;
+}
+
+#entry {
+  color: #8ca0aa;
+  padding: 16px;
+  border: none;
+  border-bottom: solid 1px #2e343f;
+}
+
+#entry:selected {
+  outline-style: none;
+  background-color: #2e343f;
+}
+
+#img {
+  padding-right:8px;
+}

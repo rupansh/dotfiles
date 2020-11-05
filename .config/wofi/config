@@ -1,0 +1,8 @@
+mode=drun
+insensitive=true
+width=512
+lines=8
+image_size=24
+allow_images=true
+no_actions=true
+stylesheet=slate.css
