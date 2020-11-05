@@ -48,3 +48,6 @@ My shell setup has been inspired from his. I have copied various P9k settings as
 
 Others \
 Sorry if I forgot to add you. I forgot who I copied my palette from,for example
+
+## Laptop configs
+[rupansh/dotfiles/tree/laptop-void](https://github.com/rupansh/dotfiles/tree/laptop-void)
