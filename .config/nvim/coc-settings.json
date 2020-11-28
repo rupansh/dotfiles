@@ -1,0 +1,13 @@
+{
+	"diagnostic.checkCurrentLine": true,
+	"suggest.noselect": false,
+	"python.linting.flake8Enabled": true,
+	"python.linting.mypyEnabled": true,
+	"python.linting.mypyArgs": [
+		"--ignore-missing-imports",
+		"--follow-imports=silent",
+		"--show-column-numbers",
+		"--strict"
+	],
+	"python.linting.pylintEnabled": false
+}
