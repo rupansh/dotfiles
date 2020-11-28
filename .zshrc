@@ -139,7 +139,7 @@ source $ZSH/oh-my-zsh.sh
 # Set the bindkey.
 bindkey -v
 bindkey "^R" history-incremental-search-backward
-export EDITOR="nano"
+export EDITOR="nvim"
  
 # history stuff
 HISTFILE=~/.zsh-histfile
@@ -195,3 +195,4 @@ autoload -U edit-command-line
 zle -N edit-command-line
 bindkey '^xe' edit-command-line
 bindkey '^x^e' edit-command-line
+alias vim=nvim
