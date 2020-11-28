@@ -25,7 +25,7 @@
     //     }
     // },
     "clock": {
-        "format": " {:%H:%M:%S}",
+        "format": " {:%H:%M}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },
@@ -86,4 +86,14 @@
         "interval": "once",
         "tooltip": false
     },
+    "custom/gammastep": {
+        "format": "{icon} {}",
+	"return-type": "json",
+        "max-length": 5,
+        "format-icons": {"off": "", "on": "ﯦ"},
+	"interval": "once",
+	"exec": "$HOME/.config/waybar/custom_modules/gammastep.py 2> /dev/null",
+	"escape": true,
+        "tooltip": "false"
+    }
 }

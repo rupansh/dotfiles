@@ -189,6 +189,7 @@ alias grep='grep --color=auto'
 PS1="%F{cyan} %~ >%F{blue}> %F{white}"
 
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.nimble/bin:$PATH"
 export ANDROID_HOME=/home/rupansh/Android/Sdk
 
 autoload -U edit-command-line

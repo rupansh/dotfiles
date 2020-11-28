@@ -39,7 +39,21 @@ nmap <leader>rn <Plug>(coc-rename)
 nnoremap <leader>g :Rg<CR>
 nnoremap <leader>t :Tags<CR>
 nnoremap <leader>m :Marks<CR>
+xnoremap <silent> <M-y> :w !wl-copy<CR><CR>
+nnoremap <silent> K :call <SID>show_documentation()<CR>
 
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  elseif (coc#rpc#ready())
+    call CocActionAsync('doHover')
+  else
+    execute '!' . &keywordprg . " " . expand('<cword>')
+  endif
+endfunction
+
+set undofile 
+set undodir=$HOME/.vim/undo
 
 let g:fzf_tags_command = 'ctags -R'
 " Border color

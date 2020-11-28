@@ -44,7 +44,7 @@ window > box {
     border-bottom: 3px solid white;
 }
 
-#clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-media, #tray, #mode, #backlight {
+#clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-media, #tray, #mode, #backlight, #custom-gammastep {
     padding: 0 3px;
     margin: 0 2px;
 }
@@ -108,6 +108,10 @@ window > box {
 
 #custom-sep {
     font-size: 10px;
+}
+
+#custom-gammastep {
+    color: white;
 }
 
 #taskbar {

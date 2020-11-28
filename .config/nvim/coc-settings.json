@@ -1,4 +1,14 @@
 {
 	"diagnostic.checkCurrentLine": true,
-	"suggest.noselect": false
+	"suggest.noselect": false,
+	"elixir.pathToElixirLS": "~/.elixir-ls/release/language_server.sh",
+	"python.linting.flake8Enabled": true,
+	"python.linting.mypyEnabled": true,
+	"python.linting.mypyArgs": [
+		"--ignore-missing-imports",
+		"--follow-imports=silent",
+		"--show-column-numbers",
+		"--strict"
+	],
+	"python.linting.pylintEnabled": false
 }
