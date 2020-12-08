@@ -29,6 +29,6 @@ bspc rule -a Eog floating=on
 bspc rule -a Ghidra floating=on
 bspc rule -a anbox floating=on
 bspc rule -a Firefox focus=on
-bspc rule -a libreoffice* focus=on
+bspc rule -a "libreoffice*" focus=on
 
 wmname LG3D
