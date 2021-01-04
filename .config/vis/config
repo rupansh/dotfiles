@@ -1,0 +1,11 @@
+# https://github.com/lordarcadius/dotfiles/blob/master/.config/vis/config
+colors.scheme=rainbow
+visualizer.spectrum.smoothing.mode=sgs
+#visualizer.sgs.smoothing.passes=5
+#visualizer.sgs.smoothing.points=5
+visualizer.monstercat.smoothing.factor=1.5
+#visualizer.spectrum.falloff.mode=fill
+visualizer.spectrum.bar.width=1
+visualizer.spectrum.bar.spacing=1
+audio.stereo.enabled=false
+visualizer.scaling.multiplier=1.5
