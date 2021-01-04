@@ -1,5 +1,5 @@
 # Rupansh's dotfiles
-![desktop](https://i.ibb.co/GcvP8qn/2020-09-11-18-25.png)
+![desktop](https://i.imgur.com/U39W6GW.png)
 ## Info
 - **WM** \
  [bspwm](https://github.com/baskerville/bspwm)
@@ -19,7 +19,7 @@
 ## Recommendations
 #### Arch/AUR
 ```
-rofi pass flameshot redshift cava bottom hsetroot neofetch spotify
+rofi pass flameshot redshift cli-visualizer bottom hsetroot neofetch ncspot
 ```
 #### Zsh plugins
 [powerlevel10k](https://github.com/romkatv/powerlevel10k) \
@@ -45,6 +45,9 @@ Slate theme for rofi
 
 [daniruiz](https://github.com/daniruiz/dotfiles) \
 My shell setup has been inspired from his. I have copied various P9k settings as well.
+
+[lordarcadius](https://github.com/lordarcadius/dotfiles) \
+cli-visualizer config
 
 Others \
 Sorry if I forgot to add you. I forgot who I copied my palette from,for example
