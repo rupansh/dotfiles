@@ -10,7 +10,7 @@
  - **Wallpaper** \
  https://wallhaven.cc/w/p8pylp
 -   **Compositor** \
-[compton-tryone](https://github.com/tryone144/compton)
+[picom-git](https://github.com/yshui/picom)
 - **Terminal** \
 [Alacritty](https://github.com/alacritty/alacritty)
 - **Shell** \
