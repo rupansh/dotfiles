@@ -1,3 +1,6 @@
+shell:
+    program: /bin/fish
+
 window:
     padding:
         x: 9
@@ -5,17 +8,17 @@ window:
 
 font:
     normal:
-        family: BlexMono Nerd Font
+        family: MesloLGS NF
         style: Regular
 
     bold:
-        family: BlexMono Nerd Font
+        family: MesloLGS NF
 
     italic:
-        family: BlexMono Nerd Font
+        family: MesloLGS NF
 
     bold_italic:
-        family: BlexMono Nerd Font
+        family: MesloLGS NF
 
     size: 10.0
 
