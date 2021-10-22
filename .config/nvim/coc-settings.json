@@ -7,6 +7,7 @@
 		"--ignore-missing-imports",
 		"--follow-imports=silent",
 		"--show-column-numbers",
+		"--no-warn-unused-ignores",
 		"--strict"
 	],
 	"python.linting.pylintEnabled": false
