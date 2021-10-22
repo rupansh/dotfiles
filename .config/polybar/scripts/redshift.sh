@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 envFile=~/.config/polybar/scripts/env.sh
 changeValue=300
@@ -13,7 +13,7 @@ changeTemp() {
   if [ "$2" -gt 1000 ] && [ "$2" -lt 25000 ] && [ "$REDSHIFT" = on ]
   then
     sed -i "s/REDSHIFT_TEMP=$1/REDSHIFT_TEMP=$2/g" $envFile 
-    redshift -P -O $((REDSHIFT_TEMP+changeValue))
+    redshift -P -O $((REDSHIFT_TEMP))
   fi
 }
 
