@@ -1,5 +1,9 @@
 # Rupansh's dotfiles
 ![desktop](https://i.imgur.com/U39W6GW.png)
+
+## WARN
+This README is not up-to-date.
+
 ## Info
 - **WM** \
  [bspwm](https://github.com/baskerville/bspwm)
